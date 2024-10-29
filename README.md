@@ -1,4 +1,4 @@
-# Telegram Views V4 ( Asynchronous )
+# Telegram Views V1 ( Asynchronous )
 
 ![Gif](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGFkOTRiMTdjMTc3OTJhZmU0MDRmZGFlNGJiMjA3NGYxOGQwM2Y2ZSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/jStbo9qVAJsObKKr5a/giphy.gif)
 
@@ -12,8 +12,8 @@
 Arguments Exmaple + Modes
 
 ```python
-# In this examples we are sending to channel @tviews and the post number is ( 4 )
-# e.g: https://t.me/tviews/4
+# In this examples we are sending to channel @smartesthackers and the post number is ( 45887 )
+# e.g: https://t.me/smartesthackers/5887
 ```
 
 ```python
@@ -22,19 +22,19 @@ Arguments Exmaple + Modes
 # You can update the sources from the auto dir
 # This mode run forever it auto resecrap proxyes when the first loop done
 
-tviews.py --mode auto --channel tviews --post 4
+tviews.py --mode auto --channel tviews --post 5887
 ```
 
 ```python
 # Load Proxies From File ( File List Of Proxies )
 # This mode allow you to run your own proxies from a txt file
 
-tviews.py --type http --mode list --proxy http.txt --channel tviews --post 4
+tviews.py --type http --mode list --proxy http.txt --channel smartesthackers --post 5887
 ```
 
 ```python
 # Using Rotating Proxy ( Rotating Proxies )
 # This mode allow you to run your own Rotated Proxies
 
-tviews.py -t http -m rotate -p user:password@ip:port -c tviews -pt 4
+tviews.py -t http -m rotate -p user:password@ip:port -c smartesthackers -pt 5887
 ```
